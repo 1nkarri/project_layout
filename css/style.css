@@ -100,6 +100,17 @@ body{
                             "three three four";
     }
 }
+@media screen and (max-width: 600px){
+    .main--container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:"five five"
+                            "five five"
+                            "five five"
+                            "three three"
+                            "two one"
+                            "two four";
+    }
+}
 @media screen and (max-width: 480px){
     .main{
         flex-direction: column-reverse;
@@ -110,14 +121,5 @@ body{
     .main--aside{
         width: 100%;
         height: 20rem;
-    }
-    .main--container{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:"five five"
-                            "five five"
-                            "five five"
-                            "three three"
-                            "two one"
-                            "two four";
     }
 }
