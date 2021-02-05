@@ -10,5 +10,5 @@ Proyecto con HTML y CSS (Flex y Grid)🚀
 </div>
 <h3 align="center">Mobile Design 📱</h3>
 <div align="center">
-  <img width="50%" src="./design/mobile-design.png" alt="Desing mobile"></img>
+  <img width="30%" src="./design/mobile-design.png" alt="Desing mobile"></img>
 </div>
